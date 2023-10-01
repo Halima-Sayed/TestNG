@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Halim/IdeaProjects/TestNG/src/test/java/class02/SoftAssertions.java">
+        <groups>
+            <run>
+                <include name="smoke"/>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="class01"></package>
+            <package name="class02"></package>
+        </packages>
+    </test>
+</suite>
